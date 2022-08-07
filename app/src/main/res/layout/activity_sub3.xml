@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SubActivity3" >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/design_default_color_primary"
+        android:elevation="4dp"
+        app:title="소비자 회원가입"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/Theme.AppCompat.Light"  >
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/customername_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이름" />
+    <EditText
+        android:id="@+id/customerage_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="생년월일(ex.20000214)" />
+    <EditText
+        android:id="@+id/customerphone_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="휴대폰번호(-없이)" />
+    <EditText
+        android:id="@+id/customeremail_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이메일(e-mail)" />
+    <EditText
+        android:id="@+id/customerid_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="아이디(ID)" />
+    <EditText
+        android:id="@+id/customerpassword_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호(Password)" />
+    <Button
+        android:id="@+id/cutomersubmit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="확인" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SubActivity1" >
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/design_default_color_primary"
+        android:elevation="4dp"
+        app:title="판매자 회원가입"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/Theme.AppCompat.Light"  >
+
+    </androidx.appcompat.widget.Toolbar>
+
+    <EditText
+        android:id="@+id/sellername_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이름" />
+    <EditText
+        android:id="@+id/sellerage_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="주민등록번호" />
+    <EditText
+        android:id="@+id/sellerphone_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="휴대폰번호(-없이)" />
+    <EditText
+        android:id="@+id/selleremail_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="이메일(e-mail)" />
+    <EditText
+        android:id="@+id/sellerid_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="아이디(ID)" />
+    <EditText
+        android:id="@+id/sellerpassword_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="비밀번호(Password)" />
+    <EditText
+        android:id="@+id/shopname_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="상호명" />
+    <EditText
+        android:id="@+id/shopnumber_edit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="사업자등록번호 (or 지자체 판매 허용 노점 위치)" />
+    <Button
+        android:id="@+id/sellersubmit_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="확인 및 승인" />
+</LinearLayout>
