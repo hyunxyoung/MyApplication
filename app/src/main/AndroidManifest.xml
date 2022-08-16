@@ -23,14 +23,19 @@
             </intent-filter>
         </activity>
 
+        <activity android:name=".MainMainActivity" />
+        <activity android:name=".MainMainMainActivity" />
         <activity android:name=".SubActivity0" />
         <activity android:name=".SubActivity1" />
         <activity android:name=".SubActivity2" />
         <activity android:name=".SubActivity3" />
-        <activity android:name=".MainMainActivity" />
-        <activity android:name=".MainMainMainActivity" />
         <activity android:name=".SubActivity4" />
         <activity android:name=".SubActivity5" />
+        <activity android:name=".SubActivity6" />
+        <activity android:name=".SubActivity7" />
+        <activity android:name=".SubActivity8" />
+        <activity android:name=".SubActivity9" />
+        <activity android:name=".SubActivity10" />
     </application>
 
 </manifest>
